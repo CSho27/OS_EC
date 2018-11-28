@@ -16,4 +16,11 @@ Minimum: -186.677293
 
 
 3. error_creator.c
+Output for 1000 cycles:
+chris@chris-VirtualBox:~/Documents/OS/OS_EC$ ./error_creator 
+Total time was 157.668743 seconds.
+Minimum: -186.677293
+Second Attempt: -186.677293
 
+
+I was not able to create an error either time I did it. Since there are only four processors in my computer anyways, it can do at most 4 of these operations at a time, and the odds two of them finding a global min at the exact same instant to the point that both are writing simultaneously are really really low. Plus, after the firs four, they've already found the minimum, so it wn't enter that clause again anyways.

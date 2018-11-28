@@ -1,0 +1,19 @@
+Christopher Shorter
+Extra Credit Report
+
+1. global_omp_shubert.c
+
+chris@chris-VirtualBox:~/Documents/OS/OS_EC$ ./global_omp_shubert 
+Total time was 0.375958 seconds.
+Minimum: -186.677293
+
+
+2. local_omp_shubert.c
+
+chris@chris-VirtualBox:~/Documents/OS/OS_EC$ ./local_omp_shubert 
+Total time was 0.424046 seconds.
+Minimum: -186.677293
+
+
+3. error_creator.c
+
